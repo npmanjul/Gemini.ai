@@ -1,0 +1,148 @@
+.nav-container
+{
+    width: 80px;
+    background-color: #f0f4f9;
+    height: 100%;
+    padding: 2rem 1rem;
+    
+    
+}
+
+.nav-box
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    
+    
+}
+.menuline
+{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    align-content: start;
+    gap: 2rem;
+    flex-direction: column;
+    
+}
+.menuline button
+{
+    border: 0;
+    background-color: rgba(240, 248, 255, 0);
+    padding-left: 1rem;
+    cursor: pointer;
+}
+
+.menuline img
+{
+    height: 20px;
+}
+
+.plusesign img
+{
+    height: 23px;
+}
+
+.plusesign
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    flex-direction: row;
+    background-color: #e6eaf1;
+    padding: 10px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.btn-txt
+{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #515254;
+}
+
+.recent-txt
+{
+    font-size: 1.1rem;
+    font-weight: 600;
+    display: none;
+    padding-left: 1rem;
+}
+
+.recent-activity
+{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+
+
+.recent-msgs
+{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 0px;
+    flex-direction: column;
+    width: 100%;
+}
+.recent-msg
+{
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    width: 100%;
+    border-radius: 25px;
+    cursor: pointer;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.recent-msg:hover
+{
+    background-color: #e6eaf1;
+}
+
+.recent-msg img
+{
+    height: 20px;
+}
+
+
+.otherOption
+{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    align-content: start;
+    gap: 1rem;
+    flex-direction: column;
+    padding-left: 1rem;
+}
+
+#nav-btn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+    cursor: pointer;
+    
+}
+
+#nav-btn img
+{
+    height: 23px;
+}

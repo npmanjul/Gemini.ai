@@ -1,0 +1,83 @@
+.heroai-main-container {
+    width: 100%;
+    height: 85%;
+    /* border: 5px solid; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-inner {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.heading-container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.name-heading {
+    font-size: 3.8rem;
+    font-weight: 600;
+    background-size: 200% auto;
+    /* background-image: url(../img/gradient.jpeg); */
+    background-image: url(https://media.istockphoto.com/id/1145611414/vector/colorful-abstract-background.jpg?s=612x612&w=0&k=20&c=aYAjkfx4MTvtSzxpRo88KSggUVTyZUjmc6s9_diCMaE=);
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: anim 2s alternate infinite;
+}
+
+@keyframes anim {
+    from{
+     background-position: 0% 80%;
+    }
+    to 
+    {
+     background-position: 100% 50%;
+    } 
+   }
+
+
+.greeting-heading {
+    font-size: 3.8rem;
+    font-weight: 600;
+    color: silver;
+}
+
+.suggestion-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: row;
+
+}
+
+.prompt-box
+{
+    width: 100%;
+}
+
+
+.footer-description
+{
+    width: 100%;
+    font-size: 0.9rem;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footer-description a
+{
+    color: black;
+}
