@@ -1,6 +1,7 @@
 import React from 'react';
 import './header.css';
-import manImg from '../img/man.jpeg'
+import { assets } from '../assets';
+
 
 const Header = () => {
     return (
@@ -10,7 +11,7 @@ const Header = () => {
                     Gemini
                 </div>
                 <div className='profile-pic'>
-                    <img src={manImg}/>
+                    <img src={assets.manImg}/>
                 </div>
             </div>
         </>
