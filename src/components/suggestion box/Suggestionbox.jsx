@@ -5,7 +5,7 @@ import { Context } from '../context/Context';
 
 
 
-const Suggestionbox = () => {
+const Suggestionbox = (props) => {
     const { onSent, setrecentPrompt} = useContext(Context);
 
     const loadPrompt = async (prompt) => {
@@ -14,12 +14,12 @@ const Suggestionbox = () => {
     }
     return (
         <>
-            <div className='suggestion-box' onClick={() => loadPrompt("Suggest beautiful places to see on an upcoming road trip")}>
+            <div className='suggestion-box' onClick={() => loadPrompt(props.promptText)}>
                 <div className='card-text'>
-                    Suggest beautiful places to see on an upcoming road trip
+                    {props.promptText}
                 </div>
                 <div className='card-icon'>
-                    <img src={navi} />
+                    <img src={props.promptImg} />
                 </div>
             </div>
         </>

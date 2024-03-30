@@ -18,6 +18,8 @@ const Navbar = () => {
         await onSent(prompt);
     }
 
+ 
+
 
     return (
         <>
@@ -65,6 +67,8 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
+
+     
         </>
     );
 

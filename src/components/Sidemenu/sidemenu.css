@@ -1,15 +1,34 @@
-.nav-container
+
+.overlay { 
+    height: 100vh;
+    width: auto;
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    background-color: #f0f4f9; 
+    overflow-x: hidden;
+    transition: 0.5s; 
+    display: none;
+  }
+
+  .overlay-content
+  {
+    height: 100%;
+  }
+ 
+
+  .menu-container
 {
     width: 80px;
     background-color: #f0f4f9;
     height: 100%;
-    padding: 2rem 1rem; 
-    display: block;   
+    padding: 2rem 1rem;    
 }
 
 
 
-.nav-box
+.menu-box
 {
     display: flex;
     justify-content: space-between;
@@ -20,7 +39,7 @@
     
     
 }
-.menuline
+.menulinebtn
 {
     display: flex;
     justify-content: center;
@@ -30,7 +49,7 @@
     flex-direction: column;
     
 }
-.menuline button
+.menulinebtn button
 {
     border: 0;
     background-color: rgba(240, 248, 255, 0);
@@ -38,17 +57,17 @@
     cursor: pointer;
 }
 
-.menuline img
+.menulinebtn img
 {
-    height: 20px;
+    height: 25px;
 }
 
-.plusesign img
+.menu-plusesign img
 {
     height: 23px;
 }
 
-.plusesign
+.menu-plusesign
 {
     display: flex;
     justify-content: center;
@@ -59,6 +78,7 @@
     padding: 10px 15px;
     border-radius: 50px;
     cursor: pointer;
+    width: 150px;
 }
 
 .btn-txt
@@ -78,15 +98,14 @@
     }
   }
 
-.recent-txt
+.menu-recent-txt
 {
     font-size: 1.1rem;
     font-weight: 600;
-    display: none;
     padding-left: 1rem;
 }
 
-.recent-activity
+.menu-recent-activity
 {
     display: flex;
     justify-content: center;
@@ -97,7 +116,7 @@
 }
 
 
-.recent-msgs
+.menu-recent-msgs
 {
     display: flex;
     justify-content: center;
@@ -105,13 +124,14 @@
     gap: 0px;
     flex-direction: column;
     width: 100%;
+   
 }
-.recent-msg
+
+.menu-recent-msg
 {
     width: 100%;
     font-size: 1.1rem;
     padding: 10px 15px;
-    width: 100%;
     border-radius: 25px;
     cursor: pointer;
     display: flex;
@@ -120,12 +140,12 @@
     gap: 0.4rem;
 }
 
-.recent-msg:hover
+.menu-recent-msg:hover
 {
     background-color: #e6eaf1;
 }
 
-.recent-msg img
+.menu-recent-msgs img
 {
     height: 20px;
 }
@@ -142,7 +162,7 @@
     padding-left: 1rem;
 }
 
-#nav-btn
+#menu-nav-btn
 {
     display: flex;
     justify-content: center;
@@ -153,17 +173,10 @@
     
 }
 
-#nav-btn img
+#menu-nav-btn img
 {
     height: 23px;
 }
 
 
 
-@media (max-width:1100px) {
-.nav-container
-{
-    display: none;
-}
-
-}

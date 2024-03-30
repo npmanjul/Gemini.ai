@@ -5,7 +5,10 @@ import History from '../components/icon/history.png';
 import Setting from '../components/icon/setting.png';
 import msgIcon from '../components/icon/msg-icon.png';
 import manImg from '../components/img/man.jpeg';
-import geminilogo from '../components/icon/gemini logo.png'
+import geminilogo from '../components/icon/gemini logo.png';
+import navi from '../components/icon/navigation.png';
+import ideaIcon from '../components/icon/idea.png';
+import codeIcon from '../components/icon/code.png';
 
 export const assets={
     Menuline,
@@ -15,5 +18,9 @@ export const assets={
     Setting,
     msgIcon,
     manImg,
-    geminilogo
+    geminilogo,
+    navi,
+    ideaIcon,
+    codeIcon
+
 }

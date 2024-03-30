@@ -7,7 +7,7 @@ import { Context } from '../context/Context';
 
 const Searcharea = () => {
 
-    const {onSent,recentPrompt,showResult,loading,resultData,setInput,input}=useContext(Context);
+    const {onSent,setInput,input}=useContext(Context);
 
     return (
         <>

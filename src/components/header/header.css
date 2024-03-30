@@ -1,5 +1,4 @@
-.maincontant-header
-{
+.maincontant-header {
     height: 80px;
     display: flex;
     justify-content: space-between;
@@ -8,17 +7,35 @@
     background-color: white;
 }
 
-.gemini-logo
-{
+.gemini-logo {
     font-size: 1.5rem;
     font-weight: 600;
     color: rgba(0, 0, 0, 0.541);
 }
 
-.profile-pic img
-{
+.profile-pic img {
     height: 50px;
     width: 50px;
     object-fit: cover;
     border-radius: 50%;
+}
+
+.header-menu-line {
+    display: none;
+
+}
+
+.header-menu-line img {
+    height: 25px;
+}
+
+@media (max-width:1100px) {
+    .header-menu-line {
+        display: block;
+        cursor: pointer;
+    }
+    .maincontant-header
+    {
+        padding: 0 0.5rem;
+    }
 }

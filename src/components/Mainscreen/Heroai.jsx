@@ -27,10 +27,14 @@ const Heroai = () => {
                             </div>
                             <div className='prompt-container'>
                                 <div className='suggestion-container'>
-                                    <Suggestionbox />
-                                    <Suggestionbox />
-                                    <Suggestionbox />
-                                    <Suggestionbox />
+                                    <Suggestionbox promptText={"Write a product description for a new type of toothbrush"} promptImg={assets.ideaIcon}/>
+
+                                    <Suggestionbox promptText={"Find flights and weather for an upcoming trip"} promptImg={assets.navi}/>
+
+                                    <Suggestionbox promptText={"I’m sick and need help crafting a text message for my boss"} promptImg={assets.msgIcon}/>
+
+                                    <Suggestionbox promptText={"Tell me about React js and React native."} promptImg={assets.codeIcon}/>
+                                    
                                 </div>
                             </div>
                         </> :
