@@ -19,7 +19,7 @@ const Heroai = () => {
                         <>
                             <div className='heading-container'>
                                 <div className='name-heading'>
-                                    Hello,Devin.
+                                    Hello,Dear.
                                 </div>
                                 <div className='greeting-heading'>
                                     How can I help you today?
